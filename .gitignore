@@ -1,0 +1,29 @@
+# === Common ===
+node_modules/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+package-lock.json
+
+# === Vite Frontend ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.vite
+
+# === Express Backend ===
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.cache
+backend/logs/
+backend/tmp/
+
+# === OS files ===
+Thumbs.db
+.idea/
+.vscode/
